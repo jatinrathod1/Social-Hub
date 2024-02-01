@@ -1,8 +1,7 @@
-# To-Do-List
+# Social-Hub 
 It's a Social-Hub website that create with HTML, CSS, Javascript.
 
 To run tests, run the following link in browser
-https://jatinrathod1.github.io/TO_DO_LIST/To-Do%20List/index.html
 
 ```bash
 https://jatinrathod1.github.io/Social-Hub/
