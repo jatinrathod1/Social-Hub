@@ -141,7 +141,7 @@ nav a:hover:before {
 /* home section img bg */
 .home {
     color: #f5e8e8;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../IMAGE/intro-background-dark.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("/IMAGE/intro-background-dark.png");
     min-height: 85vh;
     background-position: center;
     background-size: cover;
@@ -363,4 +363,83 @@ header {
 
 .review:hover p.emsize {
     display: block;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+/* Responsive style for mobile */
+
+/* For screens smaller than 640px (mobile phones) */
+@media (max-width: 639px) {
+    /* Adjustments for header */
+    .navsection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .logo {
+        text-align: center;
+    }
+
+    nav {
+        text-align: center;
+    }
+
+    /* Adjustments for home section */
+    .homecontent {
+        text-align: center;
+    }
+
+    /* Adjustments for event cards */
+    .grid {
+        grid-template-columns: 1fr;
+    }
+
+    .bg-white {
+        margin-bottom: 20px;
+    }
+
+    .details1 {
+        text-align: center;
+    }
+
+    /* Adjustments for services section */
+    .boxContainer {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .box {
+        width: 45%;
+        margin: 10px;
+    }
+
+    /* Adjustments for client reviews */
+    .client-reviews {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .review {
+        margin-bottom: 20px;
+        text-align: center;
+    }
+
+    /* Adjustments for about us section */
+    .row {
+        flex-direction: column-reverse;
+    }
+
+    .img {
+        margin-bottom: 20px;
+    }
+
+    .content {
+        text-align: center;
+    }
 }
