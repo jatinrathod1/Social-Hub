@@ -141,7 +141,7 @@ nav a:hover:before {
 /* home section img bg */
 .home {
     color: #f5e8e8;
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("/IMAGE/intro-background-dark.png");
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.6)), url("../IMAGE/intro-background-dark.png");
     min-height: 85vh;
     background-position: center;
     background-size: cover;
